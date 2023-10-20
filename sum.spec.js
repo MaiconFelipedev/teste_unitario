@@ -4,5 +4,4 @@ const sum = require('./sum');
 test('somar dois números', () => {
     const resultado = sum(1,2)
     expect(resultado).toBe(3)
-
 }) 
